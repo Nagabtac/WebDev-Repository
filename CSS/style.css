@@ -1,0 +1,28 @@
+@import url();
+
+html{
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: ivory;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+main{
+    min-height: auto;
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+
+}
+h1{
+    color:green
+}
+span{
+    color: fuchsia;
+    font-weight: 700;
+}
