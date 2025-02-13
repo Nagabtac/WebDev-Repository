@@ -8,8 +8,8 @@ body{
     background-color: ivory;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 main{
@@ -20,17 +20,21 @@ a {
     color:blueviolet;
     text-decoration: none;
     width: 100px;
-    margin-right: 8px;
+    margin-right: 3px;
     border: blue solid 1px;
     border-color: blue;
     border-radius: 0px;
-    padding: 3px;
-    margin-top: 5px;
-    margin-bottom: 100px;
+    height: 10px;
+    padding: 5px;
 }
+
 nav{
-  
+background-color: aqua;
+height: 68px;
+padding-bottom: 20px;
+
 }
+
 
 
 h1{
@@ -61,23 +65,20 @@ ul{
     color:lightseagreen ;
     margin-bottom: 0%;
 }
+h1{
+    background-color: blue;
+    padding: 20px;
+    padding-left: 70px;
+}
 
 h2{
     color: darkred;
     background-color: #D91656;
+    margin-right: 2px;
 }
-img{
-    margin: 10px;
+body:hello{
+    margin-left:35%;
     margin-top: 0px;
-}
-pfp{
-    margin: 100px;
-    border-color: #D91656;
-    border-bottom: 100px;
-    margin-top: 100px;
-    border-radius: 100px;
-    width: 300px;
-    
 }
 footer{
     padding-bottom: 50px;
