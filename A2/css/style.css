@@ -12,9 +12,6 @@ body {
     margin: 40px auto;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: flex flexbox;
-    
 }
 
 .profile-container img {
@@ -49,6 +46,7 @@ h1 {
     position: relative;
     bottom: 50px;
     border-radius: 4px;
+    text-align: center;
 }
 
 .content {
@@ -58,10 +56,7 @@ h1 {
 }
 
 .skills {
-    display: flex;
     justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
     padding: 15px;
     position: relative;
     bottom: 50px;
@@ -90,16 +85,14 @@ div>h4:first-of-type{
 
 
 .contact>h3{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     padding: 15px;
     position: relative;
     bottom: 50px;
     background-color: #ab2aad;
+    
 }
 
-.myprofile {
+.stickypro {
     background: #303030;
     color: white;
     padding: 8px;
@@ -107,7 +100,7 @@ div>h4:first-of-type{
     margin-top: 20px;
     border-radius: 5px;
     font-size: 20px;
-    margin-left: 30px;
+    margin-left: 300px;
 
 
 }
