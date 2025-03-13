@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    max-width: 800px;
+    background: white;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex flexbox;
+    
+}
+
+.profile-container img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 50px;
+    border-color: white;
+    border: #f4f4f4;
+    
+}
+
+h1 {
+    margin: 10px 0;
+    position: relative;
+    bottom: 50px;
+}
+
+.title {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+}
+
+.container {
+    background: #ab2aad;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    position: relative;
+    bottom: 50px;
+    border-radius: 4px;
+}
+
+.content {
+    text-align: left;
+    padding: 15px;
+
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 15px;
+    position: relative;
+    bottom: 50px;
+}
+
+.skills {
+    
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-left: 15px; 
+    
+}
+div>h4:first-of-type{
+    color: white;
+}
+.skills>h4{
+    list-style-type: none;
+    background-color: orange;
+    display:inline-block;
+    padding: 15px;
+    padding: 0px;
+    
+}
+
+
+.contact>h3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    position: relative;
+    bottom: 50px;
+    background-color: #ab2aad;
+}
+
+.myprofile {
+    background: #303030;
+    color: white;
+    padding: 8px;
+    font-weight: normal;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 30px;
+
+
+}
+
+p {
+    position: relative;
+    bottom: 50px;
+}
