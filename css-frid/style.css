@@ -1,0 +1,19 @@
+.grid-areas-demo {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "main main sidebar "
+        "twin twin"
+        "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    height: 500px;
+    background-color: aqua;
+}
+.demo-section {
+    background-color: rgb(196, 38, 38);
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
