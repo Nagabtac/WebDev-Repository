@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: ivory;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+main{
+
+    background-color:burlywood;
+}
+a {
+    color:blueviolet;
+    text-decoration: none;
+    width: 100px;
+    margin-right: 3px;
+    border: blue solid 1px;
+    border-color: blue;
+    border-radius: 0px;
+    height: 10px;
+    padding: 5px;
+}
+
+nav.active{
+background-color:rgb(21, 18, 13);
+height: 68px;
+padding-bottom: 20px;
+
+}
+
+
+
+h1{
+    color: blueviolet;
+}
+
+span{
+    color: fuchsia;
+    font-weight: 700;
+}
+
+#home{
+    width: 200px;
+}
+
+
+a:hover{/* pseudo selector*/
+background-color: rgba(17, 10, 23, 0.504);
+border-top: 3px;
+}
+
+p{
+    color:lightseagreen;
+    background-color: indigo;
+}
+
+ul{
+    color:lightseagreen ;
+    margin-bottom: 0%;
+}
+h1{
+    background-color: blue;
+    padding: 20px;
+    padding-left: 70px;
+}
+
+h2{
+    color: darkred;
+    background-color: #D91656;
+    margin-right: 2px;
+}
+body:hello{
+    margin-left:35%;
+    margin-top: 0px;
+}
+footer{
+    padding-bottom: 50px;
+    padding-left: 0px;
+    background-color:rgba(28, 7, 7, 0.363) ;
+}
+ul{
+    background-color:indigo;
+}
