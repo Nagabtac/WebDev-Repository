@@ -3,113 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M.N.M.L</title>
+    <title>Basic Calculator</title>
     <link rel="stylesheet" href="/assignment/css/style.css">
+    <script src="/js/main.js" defer></script> 
 </head>
 <body>
-    <header>
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="">Catalog</a> </li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li> 
-                </ul>
-            <div>
-                <h1>M.N.M.L</h1>
-            </div>
-                <ul>
-                    <li><a href="">Account</li>
-                    <li><a href="">Cart</li>
-                </ul>
-            </nav>
-        </div>
-        <ul>
-            <li><a href=""></a>Home Page</li>
-            <li><a href=""></a>Catalog</li>
-        </ul>
-    </header>
+<main>
+    <h1>Basic Calculator</h1>
 
-    <main>
-        <div>
-            <h1 class="hero">Catalog</h1>
-            <nav>
-                <ul>
-                    <li><a href="">All</a></li>
-                    <li><a href="">New Collection</a></li>
-                    <li><a href="">For Breakfast</a></li>
-                    <li><a href="">For Dinner</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div><a href="#">Filter</a>
-            <a href="#">Sort</a>
-        </div>
+    <div>
+        <input type="number" id="operand1" placeholder="First number">
+        <input type="number" id="operand2" placeholder="Second number">
+    </div>
 
-        <div>
-            <div class="card"></div>
-            <h1>Mrs. taps Bowl</h1>
-            <span class="price">P6000</span>
-            <span class="artist">By Mary Villani & Minimalist</span>
-            <img src="/images/Teacup-and-Saucer_Cobalt.webp" alt="image" width="150px">
-        </div>
-        <div>
-            <div class="card"></div>
-            <h1>Mrs. taps Bowl</h1>
-            <span class="price">P6000</span>
-            <span class="artist">By Mary Villani & Minimalist</span>
-            <img src="/images/Teacup-and-Saucer_Cobalt.webp" alt="image" width="150px">
-        </div>
-        <div>
-            <div class="card"></div>
-            <h1>Mrs. taps Bowl</h1>
-            <span class="price">P6000</span>
-            <span class="artist">By Mary Villani & Minimalist</span>
-            <img src="/images/Teacup-and-Saucer_Cobalt.webp" alt="image" width="150px">
-        </div>
-        <div>
-            <div class="card"></div>
-            <h1>Mrs. taps Bowl</h1>
-            <span class="price">P6000</span>
-            <span class="artist">By Mary Villani & Minimalist</span>
-            <img src="/images/Teacup-and-Saucer_Cobalt.webp" alt="image" width="150px" >
-        </div>
-        <div>
-            <a href="#">View More</a>
-        </div>
-    </main>
+    <div>
+        <button onclick="compute('+')" id="add">+</button>
+        <button onclick="compute('-')" id="subtract">-</button>
+        <button onclick="compute('*')" id="multiply">x</button>
+        <button onclick="compute('/')" id="divide">/</button>
+    </div>
+    <div class="spacer"></div>
 
-    <footer>
-        <div>
-            <div class="foot">
-                <h1>Contact</h1>
-                <p>Di mahanap Street 2501</p>
-            </div>
-            <div class="foot">
-                <h1>Follow</h1>
-                <li>
-                    <a href="#">Facebook</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Instagram</a>
-                </li>
-            </div>
-            <div class="foot">
-                <h1>Information</h1>
-                <ul>
-                    <li><a href="#"></a>Delivery & Returns</li>
-                    <li><a href="#"></a>Account</li>
-                    <li><a href="#"></a>Terms and conditions</li>
-                </ul>
-            </div>
-        </div>
-        <div class="foot">
-            <h1>NewsLetter</h1>
-            <form>
-                <input type="text" placeholder="Email Address">
-                <button>Subscribe</button>
-            </form>
-        </div>
-    </footer>
-    
+    <div>
+        <span id="result"> </span>
+    </div>
+</main>
+
 </body>
 </html>
