@@ -1,8 +1,10 @@
 :root {
     --main-color: #2c3e50;
     --secondary-color:#ecf0f1 ;
+    --third-color: #FBECD8;
     --accent-color: #e74c3c;
     --font-family: 'Arial', sans-serif;
+    --div-color:	#AAF0D1;
 }
 *{
     margin: 0;
@@ -11,7 +13,7 @@
 }
 body{
     font-family: var(--font-family);
-    background-color: var(--secondary-color);
+    background-color: var(--third-color);
     color: var(--main-color);
     line-height: 1.6;
 }
@@ -61,4 +63,7 @@ main{
     color:var(--accent-color);
     font-size: 20px;
     margin-top: 20px;
+}
+main{
+    background-color: var(--div-color);
 }
