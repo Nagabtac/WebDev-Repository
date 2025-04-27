@@ -28,6 +28,7 @@ h1{
     text-shadow: 2px 2px 5px gray;
 }
 button{
+    color: white;
     background-color: var(--main-color);
     padding: var(--padding);
     border-radius: var(--border-radius);
@@ -35,6 +36,7 @@ button{
 }
 button:hover {
     background-color: #c0392b;
+    color: black;
     
     
 }
